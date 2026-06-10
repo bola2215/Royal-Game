@@ -1,0 +1,5 @@
+-keep class io.flutter.** { *; }
+-keep class com.google.android.gms.ads.** { *; }
+-dontwarn com.google.android.gms.**
+-keep class androidx.** { *; }
+-dontwarn androidx.**
